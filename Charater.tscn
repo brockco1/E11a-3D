@@ -20,6 +20,7 @@ size = Vector3( 0.5, 0.5, 0.1 )
 script = ExtResource( 1 )
 
 [node name="MeshInstance" type="MeshInstance" parent="."]
+transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.107828, -0.218859, 0.0773351 )
 mesh = SubResource( 2 )
 material/0 = null
 
@@ -32,6 +33,6 @@ mesh = SubResource( 4 )
 material/0 = null
 
 [node name="Camera" type="Camera" parent="."]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0253582, 0.89779, 2.0644 )
+transform = Transform( 0.989453, 0.014231, -0.144151, 0.104419, 0.619638, 0.777911, 0.100392, -0.784759, 0.611617, -0.907484, 1.58762, 2.19047 )
 current = true
-fov = 36.165
+fov = 87.8573
