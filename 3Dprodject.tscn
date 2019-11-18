@@ -33,12 +33,25 @@ transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -1.91628, 0.862109, 2.82153 )
 fov = 49.8223
 
 [node name="BlockLarge" parent="." instance=ExtResource( 1 )]
+transform = Transform( -1.092, 0, 0, 0, -1.092, 0, 0, 0, -1.092, 0, 0, 0 )
 
 [node name="BlockLarge2" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 1.5 )
+transform = Transform( 0.7125, 0, 0, 0, 1.92375, 0, 0, 0, 0.7125, 0, 0, 1.5 )
 
 [node name="BlockLarge3" parent="." instance=ExtResource( 1 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -2, 0, 0.5 )
+transform = Transform( 0.839396, 0, 0, 0, 0.839396, 0, 0, 0, 0.883575, -2, 0, 0.5 )
 
-[node name="Charater" parent="BlockLarge3" instance=ExtResource( 2 )]
-transform = Transform( 1, 0, 0, 0, 1, 0, 0, 0, 1, -0.5, 0.5, 0 )
+[node name="BlockLarge4" parent="." instance=ExtResource( 1 )]
+transform = Transform( -3.64925, 0, 0, 0, -0.483019, 0, 0, 0, -0.339902, 0, 0, 0 )
+
+[node name="Charater" parent="." instance=ExtResource( 2 )]
+transform = Transform( 1.155, 0, 0, 0, 1.155, 0, 0, 0, 1.155, -2.5, 0.5, 0.5 )
+
+[node name="BlockLarge5" parent="." instance=ExtResource( 1 )]
+transform = Transform( 0.0527709, 0, 0, 0, -6.87908, 0, 0, 0, 0.0527709, 0, 0, 0 )
+
+[node name="BlockLarge" parent="BlockLarge5" instance=ExtResource( 1 )]
+transform = Transform( -0.509915, 0, 0, 0, -1644.6, 0, 0, 0, -0.509915, 0, 0, 0 )
+
+[node name="BlockLarge6" parent="." instance=ExtResource( 1 )]
+transform = Transform( 1.12791, 0, 0, 0, 1.12791, 0, 0, 0, 1.12791, 0, 0, 0 )
